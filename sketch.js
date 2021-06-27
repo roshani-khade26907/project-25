@@ -112,7 +112,7 @@ function keyReleased () {
     //call shoot() function for each arrow in an array playerArrows
     if(playerArrows.length){
       var angle=playerArcher.body.angle+PI/2;
-      playerArrows[length-1].shoot(angle);
+      playerArrows[playerArrows.length-1].shoot(angle);
       
     }
 
